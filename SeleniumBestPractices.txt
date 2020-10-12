@@ -1,0 +1,13 @@
+10 best practices for creating a selenium test automation framework:
+-----------------------------------------------------------------------
+
+1. Make Use of Right Locators
+2. Data-Driven Testing
+3. Don't Depend on a Specific Driver or specific version
+4. Choose the Selector Order
+5. Using PageObjects
+6. Prefer Wait and Avoid Thread.Sleep
+7. Usage of userdefined exception
+8. Making Your Own Set of Methods (Wrapping Selenium Calls)
+9. Take screenshots for failed Tests
+10. Setup selenium test automation reports

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[User already in quiz home page]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+    </line>
+  </reporter-output>
+  <suite name="Final case study Suite" duration-ms="142202" started-at="2020-08-26T10:35:49 IST" finished-at="2020-08-26T10:38:11 IST">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="CucumberRunnerTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest@1a18f1b]" name="scenario" class="com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Test" duration-ms="142202" started-at="2020-08-26T10:35:49 IST" finished-at="2020-08-26T10:38:11 IST">
+      <class name="com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest@1a18f1b]" name="setUp" is-config="true" duration-ms="3934" started-at="2020-08-26T10:36:41 IST" finished-at="2020-08-26T10:36:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest@1a18f1b]" name="scenario" duration-ms="6708" started-at="2020-08-26T10:36:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-26T10:36:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Play the second sample quiz"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Play sample quizzes]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest@1a18f1b]" name="scenario" duration-ms="2150" started-at="2020-08-26T10:36:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-26T10:36:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Play the third sample quiz"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Play sample quizzes]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User already in quiz home page]]>
+            </line>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest@1a18f1b]" name="tearDown" is-config="true" duration-ms="297" started-at="2020-08-26T10:36:53 IST" finished-at="2020-08-26T10:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest -->
+      <class name="com.stackroute.finalcasestudy.test.FirstSampleQuizTest">
+        <test-method status="PASS" signature="launchQuizManiac()[pri:0, instance:com.stackroute.finalcasestudy.test.FirstSampleQuizTest@1b4de6a]" name="launchQuizManiac" is-config="true" duration-ms="1757" started-at="2020-08-26T10:36:34 IST" finished-at="2020-08-26T10:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQuizManiac -->
+        <test-method status="PASS" signature="playFirstSampleQuizTest()[pri:0, instance:com.stackroute.finalcasestudy.test.FirstSampleQuizTest@1b4de6a]" name="playFirstSampleQuizTest" duration-ms="5216" started-at="2020-08-26T10:36:35 IST" finished-at="2020-08-26T10:36:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playFirstSampleQuizTest -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.FirstSampleQuizTest@1b4de6a]" name="postTest" is-config="true" duration-ms="1" started-at="2020-08-26T10:36:41 IST" finished-at="2020-08-26T10:36:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playFirstSampleQuizTest status=SUCCESS method=FirstSampleQuizTest.playFirstSampleQuizTest()[pri:0, instance:com.stackroute.finalcasestudy.test.FirstSampleQuizTest@1b4de6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.stackroute.finalcasestudy.test.FirstSampleQuizTest -->
+      <class name="com.stackroute.finalcasestudy.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stackroute.finalcasestudy.test.HomePageTest@153f538]" name="setUp" is-config="true" duration-ms="25606" started-at="2020-08-26T10:35:49 IST" finished-at="2020-08-26T10:36:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launchQuizHomeTest()[pri:0, instance:com.stackroute.finalcasestudy.test.HomePageTest@153f538]" name="launchQuizHomeTest" duration-ms="13943" started-at="2020-08-26T10:36:15 IST" finished-at="2020-08-26T10:36:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQuizHomeTest -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.HomePageTest@153f538]" name="postTest" is-config="true" duration-ms="12" started-at="2020-08-26T10:36:29 IST" finished-at="2020-08-26T10:36:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchQuizHomeTest status=SUCCESS method=HomePageTest.launchQuizHomeTest()[pri:0, instance:com.stackroute.finalcasestudy.test.HomePageTest@153f538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stackroute.finalcasestudy.test.HomePageTest@153f538]" name="tearDown" is-config="true" duration-ms="10418" started-at="2020-08-26T10:38:01 IST" finished-at="2020-08-26T10:38:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stackroute.finalcasestudy.test.HomePageTest -->
+      <class name="com.stackroute.finalcasestudy.test.AddNewQuizTest">
+        <test-method status="PASS" signature="launchQuizManiac()[pri:0, instance:com.stackroute.finalcasestudy.test.AddNewQuizTest@68e947]" name="launchQuizManiac" is-config="true" duration-ms="4383" started-at="2020-08-26T10:37:48 IST" finished-at="2020-08-26T10:37:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQuizManiac -->
+        <test-method status="PASS" signature="addNewQuizAndVerifyTest()[pri:0, instance:com.stackroute.finalcasestudy.test.AddNewQuizTest@68e947]" name="addNewQuizAndVerifyTest" duration-ms="8425" started-at="2020-08-26T10:37:53 IST" finished-at="2020-08-26T10:38:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewQuizAndVerifyTest -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.AddNewQuizTest@68e947]" name="postTest" is-config="true" duration-ms="0" started-at="2020-08-26T10:38:01 IST" finished-at="2020-08-26T10:38:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewQuizAndVerifyTest status=SUCCESS method=AddNewQuizTest.addNewQuizAndVerifyTest()[pri:0, instance:com.stackroute.finalcasestudy.test.AddNewQuizTest@68e947] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.stackroute.finalcasestudy.test.AddNewQuizTest -->
+      <class name="com.stackroute.finalcasestudy.test.ManageQuizTest">
+        <test-method status="PASS" signature="launchQuizManiac()[pri:0, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="launchQuizManiac" is-config="true" duration-ms="4160" started-at="2020-08-26T10:36:54 IST" finished-at="2020-08-26T10:36:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQuizManiac -->
+        <test-method status="PASS" signature="modifyFirstSampleQuiz()[pri:1, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="modifyFirstSampleQuiz" duration-ms="13190" started-at="2020-08-26T10:36:58 IST" finished-at="2020-08-26T10:37:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyFirstSampleQuiz -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="postTest" is-config="true" duration-ms="1" started-at="2020-08-26T10:37:11 IST" finished-at="2020-08-26T10:37:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modifyFirstSampleQuiz status=SUCCESS method=ManageQuizTest.modifyFirstSampleQuiz()[pri:1, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="launchQuizManiac()[pri:0, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="launchQuizManiac" is-config="true" duration-ms="16091" started-at="2020-08-26T10:37:11 IST" finished-at="2020-08-26T10:37:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQuizManiac -->
+        <test-method status="PASS" signature="deleteQuestionFromFirstSampleQuiz()[pri:2, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="deleteQuestionFromFirstSampleQuiz" duration-ms="6829" started-at="2020-08-26T10:37:27 IST" finished-at="2020-08-26T10:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteQuestionFromFirstSampleQuiz -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="postTest" is-config="true" duration-ms="1" started-at="2020-08-26T10:37:34 IST" finished-at="2020-08-26T10:37:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteQuestionFromFirstSampleQuiz status=SUCCESS method=ManageQuizTest.deleteQuestionFromFirstSampleQuiz()[pri:2, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="launchQuizManiac()[pri:0, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="launchQuizManiac" is-config="true" duration-ms="1743" started-at="2020-08-26T10:37:34 IST" finished-at="2020-08-26T10:37:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQuizManiac -->
+        <test-method status="FAIL" signature="createQuizAndVerify()[pri:3, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="createQuizAndVerify" duration-ms="12091" started-at="2020-08-26T10:37:36 IST" finished-at="2020-08-26T10:37:48 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()="Quizz name "]/../../input"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\David\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29425176a7f54af2def4ca9839c04fef
+*** Element info: {Using=xpath, value=//label[text()="Quizz name "]/../../input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()="Quizz name "]/../../input"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\David\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29425176a7f54af2def4ca9839c04fef
+*** Element info: {Using=xpath, value=//label[text()="Quizz name "]/../../input}
+at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.getAttribute(Unknown Source)
+at com.stackroute.finalcasestudy.pages.ManageNewQuizPage.checkIfNewQuizManageLoaded(ManageNewQuizPage.java:93)
+at com.stackroute.finalcasestudy.pages.ManageNewQuizPage.verifyNewQuizLaunched(ManageNewQuizPage.java:86)
+at com.stackroute.finalcasestudy.test.ManageQuizTest.createQuizAndVerify(ManageQuizTest.java:87)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createQuizAndVerify -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62]" name="postTest" is-config="true" duration-ms="385" started-at="2020-08-26T10:37:48 IST" finished-at="2020-08-26T10:37:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createQuizAndVerify status=FAILURE method=ManageQuizTest.createQuizAndVerify()[pri:3, instance:com.stackroute.finalcasestudy.test.ManageQuizTest@18f5f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.stackroute.finalcasestudy.test.ManageQuizTest -->
+      <class name="com.stackroute.finalcasestudy.test.InvalidPageTest">
+        <test-method status="PASS" signature="launchInvalidPageTest()[pri:0, instance:com.stackroute.finalcasestudy.test.InvalidPageTest@14593bf]" name="launchInvalidPageTest" duration-ms="4689" started-at="2020-08-26T10:36:29 IST" finished-at="2020-08-26T10:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchInvalidPageTest -->
+        <test-method status="PASS" signature="postTest(org.testng.ITestResult)[pri:0, instance:com.stackroute.finalcasestudy.test.InvalidPageTest@14593bf]" name="postTest" is-config="true" duration-ms="1" started-at="2020-08-26T10:36:34 IST" finished-at="2020-08-26T10:36:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchInvalidPageTest status=SUCCESS method=InvalidPageTest.launchInvalidPageTest()[pri:0, instance:com.stackroute.finalcasestudy.test.InvalidPageTest@14593bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution Successful and hence screenshot not captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.stackroute.finalcasestudy.test.InvalidPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Final case study Suite -->
+</testng-results>

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Final case study Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">142,202</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Final case study Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.stackroute.finalcasestudy.test.ManageQuizTest</td><td><a href="#m0">createQuizAndVerify</a></td><td rowspan="1">1598418456167</td><td rowspan="1">12091</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest</td><td><a href="#m1">scenario</a></td><td rowspan="2">1598418404987</td><td rowspan="2">6708</td></tr><tr class="passedeven"><td><a href="#m2">scenario</a></td></tr><tr class="passedodd"><td rowspan="1">com.stackroute.finalcasestudy.test.AddNewQuizTest</td><td><a href="#m3">addNewQuizAndVerifyTest</a></td><td rowspan="1">1598418473039</td><td rowspan="1">8425</td></tr><tr class="passedeven"><td rowspan="1">com.stackroute.finalcasestudy.test.FirstSampleQuizTest</td><td><a href="#m4">playFirstSampleQuizTest</a></td><td rowspan="1">1598418395815</td><td rowspan="1">5216</td></tr><tr class="passedodd"><td rowspan="1">com.stackroute.finalcasestudy.test.HomePageTest</td><td><a href="#m5">launchQuizHomeTest</a></td><td rowspan="1">1598418375369</td><td rowspan="1">13943</td></tr><tr class="passedeven"><td rowspan="1">com.stackroute.finalcasestudy.test.InvalidPageTest</td><td><a href="#m6">launchInvalidPageTest</a></td><td rowspan="1">1598418389367</td><td rowspan="1">4689</td></tr><tr class="passedodd"><td rowspan="2">com.stackroute.finalcasestudy.test.ManageQuizTest</td><td><a href="#m7">deleteQuestionFromFirstSampleQuiz</a></td><td rowspan="1">1598418447593</td><td rowspan="1">6829</td></tr><tr class="passedodd"><td><a href="#m8">modifyFirstSampleQuiz</a></td><td rowspan="1">1598418418307</td><td rowspan="1">13190</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.stackroute.finalcasestudy.test.ManageQuizTest#createQuizAndVerify</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[text()=&quot;Quizz name &quot;]/../../input&quot;}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\David\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29425176a7f54af2def4ca9839c04fef
+*** Element info: {Using=xpath, value=//label[text()=&quot;Quizz name &quot;]/../../input}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.getAttribute(Unknown Source)
+	at com.stackroute.finalcasestudy.pages.ManageNewQuizPage.checkIfNewQuizManageLoaded(ManageNewQuizPage.java:93)
+	at com.stackroute.finalcasestudy.pages.ManageNewQuizPage.verifyNewQuizLaunched(ManageNewQuizPage.java:86)
+	at com.stackroute.finalcasestudy.test.ManageQuizTest.createQuizAndVerify(ManageQuizTest.java:87)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest#scenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Play the second sample quiz&quot;</td><td>&quot;Optional[Play sample quizzes]&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test Execution Successful and hence screenshot not captured</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.stackroute.finalcasestudy.cucumber.CucumberRunnerTest#scenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Play the third sample quiz&quot;</td><td>&quot;Optional[Play sample quizzes]&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">User already in quiz home page<br/>Test Execution Successful and hence screenshot not captured</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.stackroute.finalcasestudy.test.AddNewQuizTest#addNewQuizAndVerifyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.stackroute.finalcasestudy.test.FirstSampleQuizTest#playFirstSampleQuizTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.stackroute.finalcasestudy.test.HomePageTest#launchQuizHomeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.stackroute.finalcasestudy.test.InvalidPageTest#launchInvalidPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.stackroute.finalcasestudy.test.ManageQuizTest#deleteQuestionFromFirstSampleQuiz</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.stackroute.finalcasestudy.test.ManageQuizTest#modifyFirstSampleQuiz</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
